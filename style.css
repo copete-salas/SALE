@@ -38,16 +38,19 @@
     height: 40%;
   }
 }
+.logo {
+  padding-left: 1%;
+}
 
 .title {
-  font-size: 2em;
+  font-size: 2rem;
   height: 100px;
   color: orange;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
-main {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,8 +90,8 @@ article {
   height: 19%;
 }
 
-h2 {
-  font-size: medium;
+.second-title {
+  font-size: 2em;
   color: chartreuse;
 }
 
@@ -103,4 +106,36 @@ p {
   position: fixed;
   top: 28%;
   right: 7%;
+}
+
+/* stylization of interdiction.html */
+
+@media (max-width: 1200px) {
+  .bdm {
+    width: 65%;
+    height: 65%;
+  }
+}
+.bg2 {
+  background-color: rgb(23, 2, 99);
+  font-family: "belligerent_madnessregular", "Franklin Gothic Medium",
+    "Arial Narrow", Arial, sans-serif;
+}
+
+.logo-position {
+  position: absolute;
+  width: 15%;
+  height: auto;
+}
+
+.bg {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.warning {
+  text-align: center;
+  font-size: 2vw;
+  color: #f03d3d;
 }
