@@ -139,3 +139,33 @@ p {
   font-size: 2vw;
   color: #f03d3d;
 }
+
+/* stylization of quidditch.html */
+
+.wallpaper {
+  background-image: url("images/wallpaper/terrain\ de\ quidditch.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.container-quidditch {
+  font-family: "belligerent_madnessregular", "Franklin Gothic Medium",
+    "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.title-quidditch {
+  font-size: 2em;
+  color: darkkhaki;
+}
+.subtitle-quidditch {
+  font-size: 1.7em;
+  color: midnightblue;
+}
+
+.img-chocogrenouille {
+  width: 10%;
+  height: auto;
+}
