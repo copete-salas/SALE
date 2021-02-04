@@ -44,7 +44,7 @@
 .menu {
   position: absolute;
   top: 1%;
-  right: 10%;
+  right: 15%;
 }
 
 @media only screen and (min-width: 993px) {
@@ -154,6 +154,8 @@ p {
 /* stylization of quidditch.html */
 
 .wallpaper {
+  font-family: "belligerent_madnessregular", "Franklin Gothic Medium",
+    "Arial Narrow", Arial, sans-serif;
   background-image: url("images/wallpaper/terrain-de-quidditch.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -161,8 +163,6 @@ p {
 }
 
 .container-quidditch {
-  font-family: "belligerent_madnessregular", "Franklin Gothic Medium",
-    "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
 
